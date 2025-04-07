@@ -63,7 +63,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc
   end
   })
   
-  AddButton(Tab1o, {
+AddButton(Tab1o, {
      Name = "banana fake",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-
@@ -74,15 +74,5 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc
      Name = "tsuo hub",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
-  end
-  })
-
-   AddButton(Tab1o, {
-     Name = "xero",
-    Callback = function()
-    getgenv().Team = "Marines"
-getgenv().Hide_Menu = false
-getgenv().Auto_Execute = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
   end
   })
