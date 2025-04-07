@@ -76,3 +76,10 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDY-FREEMIUM"))()
   end
   })
+
+ AddButton(Tab1o, {
+     Name = "w-azure",
+    Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
