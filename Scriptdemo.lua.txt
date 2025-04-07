@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=9180622670",
+       Image = "http://www.roblox.com/asset/?id=77990136649622",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -31,6 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
+      local Tab2o = MakeTab({Name = "Script hop"})
      
 ------- BUTTON
     
@@ -59,5 +60,19 @@ AddButton(Tab1o, {
     repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().team = "Pirates" 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+  end
+  })
+
+   AddButton(Tab1o, {
+     Name = "banana fake",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-
+  end
+  })
+
+  AddButton(Tab1o, {
+     Name = "tsuo",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
   end
   })
