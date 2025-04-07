@@ -62,13 +62,6 @@ getgenv().team = "Pirates"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
   end
   })
-  
-AddButton(Tab1o, {
-     Name = "banana fake",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-
-  end
-  })
 
  AddButton(Tab1o, {
      Name = "tsuo hub",
