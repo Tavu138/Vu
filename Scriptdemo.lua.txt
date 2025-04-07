@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Script hopsv"})
- 
+     local Tab3o = MakeTab({Name = "Script deadrails"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -81,5 +81,19 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc
      Name = "w-azure",
     Callback = function()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+
+ AddButton(Tab3o, {
+     Name = "win dead rails",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
+  end
+  })
+
+AddButton(Tab3o, {
+     Name = "null fire",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
   end
   })
